@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
-<project xmlns="http://audacity.sourceforge.net/xml/" projname="E1_data" version="1.3.0" audacityversion="2.3.1" sel0="1131.9793285433" sel1="1168.8415577100" vpos="0" h="1081.6753857780" zoom="16.1795305968" rate="32000.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="E1_data" version="1.3.0" audacityversion="2.3.1" sel0="37.2384103726" sel1="37.2384103726" vpos="0" h="0.0000000000" zoom="16.1795305968" rate="32000.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
 	<tags/>
 	<wavetrack name="E1_R" channel="2" linked="0" mute="1" solo="0" height="319" minimized="1" isSelected="0" rate="32000" gain="1.0" pan="0.0" colorindex="0">
 		<waveclip offset="1977.59227708" colorindex="0">
@@ -950,7 +950,7 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="E1_L" channel="2" linked="0" mute="0" solo="0" height="184" minimized="0" isSelected="0" rate="32000" gain="1.0" pan="0.0" colorindex="0">
+	<wavetrack name="E1_L" channel="2" linked="0" mute="0" solo="0" height="194" minimized="0" isSelected="0" rate="32000" gain="1.0" pan="0.0" colorindex="0">
 		<waveclip offset="87.51800000" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="168266">
 				<waveblock start="0">
@@ -2093,6 +2093,14 @@
 			</sequence>
 			<envelope numpoints="0"/>
 		</waveclip>
+		<waveclip offset="32.20118750" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="69223">
+				<waveblock start="0">
+					<simpleblockfile filename="e08008b7.au" len="69223" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
 	</wavetrack>
 	<wavetrack name="Theme" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="48000" gain="0.707946" pan="0.0" colorindex="0">
 		<waveclip offset="0.00000000" colorindex="0">
@@ -2218,8 +2226,8 @@
 			<envelope numpoints="13">
 				<controlpoint t="3.595024233846" val="1.000000000000"/>
 				<controlpoint t="5.097845801265" val="0.267605662346"/>
-				<controlpoint t="40.854090051953" val="0.267605662346"/>
-				<controlpoint t="44.933318408124" val="1.000000000000"/>
+				<controlpoint t="36.836668186027" val="0.267605662346"/>
+				<controlpoint t="41.348541973913" val="1.000000000000"/>
 				<controlpoint t="51.917451805810" val="1.000000000000"/>
 				<controlpoint t="55.873067181491" val="0.253521144390"/>
 				<controlpoint t="73.735142862300" val="0.253521144390"/>
@@ -2282,7 +2290,7 @@
 					<simpleblockfile filename="e08000c4.au" len="12841" min="-0.05523" max="0.170332" rms="0.013738"/>
 				</waveblock>
 			</sequence>
-			<envelope numpoints="10">
+			<envelope numpoints="8">
 				<controlpoint t="0.000000000000" val="0.098591566086"/>
 				<controlpoint t="2.441349538731" val="1.000000000000"/>
 				<controlpoint t="3.584769608264" val="1.000000000000"/>
@@ -2291,8 +2299,6 @@
 				<controlpoint t="41.039502696741" val="1.000000000000"/>
 				<controlpoint t="45.306566649233" val="1.000000000000"/>
 				<controlpoint t="45.306566649233" val="0.071107430660"/>
-				<controlpoint t="2398.127500000000" val="0.071107430660"/>
-				<controlpoint t="2398.127500000000" val="0.267605662346"/>
 			</envelope>
 		</waveclip>
 		<waveclip offset="1127.83389104" colorindex="0">
@@ -2371,7 +2377,7 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 		<waveclip offset="5.25831250" colorindex="0">
-			<sequence maxsamples="262144" sampleformat="262159" numsamples="1712448">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="1293258">
 				<waveblock start="0">
 					<simpleblockfile filename="e080032e.au" len="173792" min="-0.887939" max="0.891235" rms="0.124622"/>
 				</waveblock>
@@ -2388,16 +2394,10 @@
 					<simpleblockfile filename="e0800df2.au" len="153264" min="-0.891235" max="0.866302" rms="0.113056"/>
 				</waveblock>
 				<waveblock start="952224">
-					<simpleblockfile filename="e080059f.au" len="262144" min="-0.891235" max="0.88028" rms="0.128255"/>
+					<simpleblockfile filename="e0800f65.au" len="170517" min="-0.70575" max="0.777222" rms="0.125916"/>
 				</waveblock>
-				<waveblock start="1214368">
-					<simpleblockfile filename="e08009a8.au" len="226432" min="-0.799469" max="0.885864" rms="0.115771"/>
-				</waveblock>
-				<waveblock start="1440800">
-					<simpleblockfile filename="e0800d77.au" len="135824" min="-0.670776" max="0.805908" rms="0.140259"/>
-				</waveblock>
-				<waveblock start="1576624">
-					<simpleblockfile filename="e08006f5.au" len="135824" min="-0.606293" max="0.847656" rms="0.113941"/>
+				<waveblock start="1122741">
+					<simpleblockfile filename="e0800ffe.au" len="170517" min="-0.891235" max="0.88028" rms="0.113634"/>
 				</waveblock>
 			</sequence>
 			<envelope numpoints="0"/>
@@ -2460,8 +2460,19 @@
 			</sequence>
 			<envelope numpoints="0"/>
 		</waveclip>
+		<waveclip offset="32.85014583" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="315355">
+				<waveblock start="0">
+					<simpleblockfile filename="e080089a.au" len="179531" min="-0.670776" max="0.865448" rms="0.137571"/>
+				</waveblock>
+				<waveblock start="179531">
+					<simpleblockfile filename="e08006f5.au" len="135824" min="-0.606293" max="0.847656" rms="0.113941"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
 	</wavetrack>
-	<labeltrack name="Label Track" numlabels="6" height="73" minimized="0" isSelected="1">
+	<labeltrack name="Label Track" numlabels="6" height="73" minimized="0" isSelected="0">
 		<label t="294.8312528546" t1="294.8312528546" title="sigh its relevant so leave it"/>
 		<label t="534.0431484230" t1="534.0431484230" title="ill let them know. lets leave it for now. "/>
 		<label t="1131.9793285433" t1="1168.8415577100" title="ad read"/>
